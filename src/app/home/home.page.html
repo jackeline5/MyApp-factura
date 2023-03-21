@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Bienvenido al Sistema de Facturacion
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Registrar</ion-button>
+        <span class="divider line one-line"></span>
+        <span class="already">Ya eres vendedor?</span>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger">Entrar</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content> 
